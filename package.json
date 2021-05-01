@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator-tools",
+  "version": "1.0.0",
+  "description": "${response.description}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottgeleas/README-Generator.git"
+  },
+  "author": "Scott Geleas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottgeleas/README-Generator/issues"
+  },
+  "homepage": "https://github.com/scottgeleas/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
