@@ -1,4 +1,4 @@
-mit = `MIT License
+let mit = `MIT License
 
 Copyright (c) [year] [fullname]
 
@@ -20,7 +20,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`
 
-apache = `Apache License
+let apache = `Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
 
@@ -222,7 +222,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`
 
-unlicense = `This is free and unencumbered software released into the public domain.
+let unlicense = `This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
 distribute this software, either in source code form or as a compiled
@@ -247,7 +247,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>`
 
-mpl2 = `Mozilla Public License Version 2.0
+let mpl2 = `Mozilla Public License Version 2.0
 ==================================
 
 1. Definitions
@@ -611,7 +611,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.`
 
-wtfpl = `DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+let wtfpl = `DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
                     Version 2, December 2004 
 
  Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
@@ -625,4 +625,6 @@ wtfpl = `DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 
   0. You just DO WHAT THE FUCK YOU WANT TO.`
 
-module.exports = {mit};
+module.exports = {
+    mit, apache, unlicense, mpl2, wtfpl
+};

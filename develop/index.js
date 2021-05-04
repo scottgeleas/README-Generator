@@ -62,27 +62,27 @@ inquirer
         switch (response.license) {
             case "MIT":
                 licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-                licenseDesc = mit;
+                licenseDesc = licenseInfo.mit;
                 break;
 
             case "Apache 2.0":
                 licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-                licenseDesc = apache;
+                licenseDesc = licenseInfo.apache;
                 break;
 
             case "Unlicense":
                 licenseBadge = "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
-                licenseDesc = unlicense;
+                licenseDesc = licenseInfo.unlicense;
                 break;
 
             case "Mozilla Public License 2.0":
                 licenseBadge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
-                licenseDesc = mpl2;
+                licenseDesc = licenseInfo.mpl2;
                 break;
 
             case "WTFPL":
                 licenseBadge = "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)";
-                licenseDesc = wtfpl;
+                licenseDesc = licenseInfo.wtfpl;
                 break;
         };
         fs.writeFile('README.md',
