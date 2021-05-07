@@ -626,5 +626,9 @@ let wtfpl = `DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
   0. You just DO WHAT THE FUCK YOU WANT TO.`
 
 module.exports = {
-    mit, apache, unlicense, mpl2, wtfpl
+    mit, 
+    apache, 
+    unlicense, 
+    mpl2, 
+    wtfpl,
 };
