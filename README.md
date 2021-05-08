@@ -1,23 +1,27 @@
 # README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[Watch The Demo](https://youtu.be/eR6Rk2wIk00)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 ## Description
 This is a simple README generator you can use form the command line. By simply running the file with node you will be prompted via the inquirer package to fill out sections for a README.
 ## Installation
-You must have:
+If you want to edit this web page you must have a Github account, installed Node.js 
+and have also downloaded Visual Studio Code or another code editor.
+- Create a Github account here: [Github](https://github.com/)
+- Download Visual Studio here: [Visual Studio](https://code.visualstudio.com/download/)
+- Download Node.js here: [Node.js](https://nodejs.org/en/download/)
+- Repository link: [README Generator](https://github.com/scottgeleas/README-Generator/)
 ## Usage
-after cloning the repo navagate to where you want to generate a README and run the readme index file from node.
+After cloning the repo navigate to where you want to generate a README in your terminal, and run the readme index file with Node.
 ## Contributing
-Loooking to contribute? We use a simple fork => edit => Pull request
-## Tests
-none
+Looking to contribute? Fork the repo and make any changes you'd like. Submit a pull request with a detailed description of what you did and what value it brings to the project.
 ### Questions
 Have any questions? Please email me with the link below or comment on the repo.
 - [Github](https://github.com/scottgeleas)
@@ -25,7 +29,7 @@ Have any questions? Please email me with the link below or comment on the repo.
 ## License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2021] [Scott Geleas]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
